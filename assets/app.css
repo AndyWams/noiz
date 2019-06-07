@@ -1,5 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Quicksand');
+@font-face {
+    font-family: "Gobold Uplow";
+    src: url("fonts/gobold/Gobold Uplow.otf");
+}
 
 body, html {
     
@@ -27,19 +31,19 @@ a:focus {
     CONTENT STYLE
 ----------------------------------------------------- */
 .drop-one {
-    animation-delay: 1s;
+    animation-delay: .5s;
 }
 
 .drop-two {
-    animation-delay: 2s;
+    animation-delay: 1s;
 }
 
 .drop-three {
-    animation-delay: 3s;
+    animation-delay: 2s;
 }
 
 .drop-four {
-    animation-delay: 4s;
+    animation-delay: 3s;
 }
 
 .navigate-sec.active {
@@ -139,17 +143,18 @@ a:focus {
 }
 
 .main-intro {
-    font-family: 'Questrial', sans-serif;
-    font-size: 89px;
+    font-family: 'Gobold Uplow';
+    font-size: 74px;
     color: #54575f;
 }
 
 .sub-intro {
-    font-family: 'Questrial', sans-serif;
-    font-size: 20px;
+    font-family: Gobold Uplow;
+    font-size: 18px;
     color: #54575f;
     margin-left: 3px;
-    word-spacing: 3px;
+    letter-spacing: -1px;
+    word-spacing: 2px;
 }
 
 li {
@@ -270,18 +275,20 @@ li {
 }
 
 .main-intro {
-    font-family: 'Questrial', sans-serif;
-    font-size: 89px;
+    font-family: 'Gobold Uplow';
+    font-size: 74px;
     color: #54575f;
 }
 
 .sub-intro {
-    font-family: 'Questrial', sans-serif;
-    font-size: 21px;
+    font-family: Gobold Uplow;
+    font-size: 18px;
     color: #54575f;
     margin-left: 3px;
+    letter-spacing: -1px;
     word-spacing: 2px;
 }
+
 
 li {
     display: block;
@@ -401,19 +408,20 @@ li {
 }
 
 .main-intro {
-    font-family: 'Questrial', sans-serif;
-    font-size: 111px;
+    font-family: 'Gobold Uplow';
+    font-size: 87px;
     color: #54575f;
 }
 
 .sub-intro {
-    font-family: 'Questrial', sans-serif;
-    font-size: 28px;
+    font-family: Gobold Uplow;
+    font-size: 24px;
     color: #54575f;
     margin-left: 3px;
-    letter-spacing: -2px;
+    letter-spacing: -1px;
     word-spacing: 2px;
 }
+
 
 li {
     display: block;
@@ -550,19 +558,20 @@ li {
 }
 
 .main-intro {
-    font-family: 'Questrial', sans-serif;
-    font-size: 124px;
+    font-family: 'Gobold Uplow';
+    font-size: 100px;
     color: #54575f;
 }
 
 .sub-intro {
-    font-family: 'Questrial', sans-serif;
-    font-size: 35px;
+    font-family: Gobold Uplow;
+    font-size: 26px;
     color: #54575f;
     margin-left: 3px;
-    letter-spacing: -2px;
+    letter-spacing: -1px;
     word-spacing: 2px;
 }
+
 
 li {
     display: inline;
@@ -697,17 +706,17 @@ li {
 }
 
 .main-intro {
-    font-family: 'Questrial', sans-serif;
-    font-size: 124px;
+    font-family: 'Gobold Uplow';
+    font-size: 100px;
     color: #54575f;
 }
 
 .sub-intro {
-    font-family: 'Questrial', sans-serif;
-    font-size: 35px;
+    font-family: Gobold Uplow;
+    font-size: 26px;
     color: #54575f;
     margin-left: 3px;
-    letter-spacing: -2px;
+    letter-spacing: -1px;
     word-spacing: 2px;
 }
 
@@ -757,6 +766,7 @@ li {
     background: repeating-linear-gradient(-36deg , #ff6530, #ff6530 14px, #fb490b -4px, #fb490b 18px );
     box-shadow: 0px 7px 20px 1px #ff6530c4, 0px 0px 0px 0px rgba(0,0,0,.2);
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
 .circle-play {
@@ -786,6 +796,77 @@ li {
     font-weight: bold;
     color: #6c757ddb
 }
+
+.content-passion {
+    padding-top: 70px;
+    margin: 40px;
+}
+
+
+.frame-view {
+    height: 429px;
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 28px;
+    background-color: #fff;
+    margin-left: 80px;
+    margin-bottom: 16px;
+    padding: 8px;
+    box-shadow: -3px 16px 20px 20px #eaeaec80, 0px 0px 0px 0px rgba(0, 0, 0, 0.26);
+}
+
+.frame-view::after {
+    background-color: #eee0;
+    border-left: 134px solid #fbb122;
+    border-right: 0px solid #0000001f;
+    border-top: 114px solid #0062cc00;
+    content: '';
+    position: absolute;
+    top: 346px;
+    left: 42px;
+    z-index: -1;
+}
+
+.frame-view::before {
+    border-left: 264px solid #faf6f4;
+    border-right: 0px solid #0000001f;
+    border-top: 250px solid #0062cc00;
+    content: '';
+    position: absolute;
+    top: -33px;
+    left: 395px;
+    z-index: -1;
+    transform: rotate(180deg);
+   
+}
+
+.img-frame {
+    width: 525px;
+    height: 413px;
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 28px;
+}
+
+.content-description {
+    margin-left: 33px;
+    margin-top: 16px;
+    padding-top: 100px;
+}
+
+.c-text {
+    font-size: 38px;
+    font-weight: bold;
+    color: #3c3d45;
+    font-family: 'Roboto', sans-serif;
+}
+
+.c-sub-text {
+    font-size: 14px;
+    color: #b8b9bf;
+    margin-top: 19px;
+    margin-bottom: 23px;
+    font-family: 'Roboto', sans-serif;
+}
+
 
 }
 
