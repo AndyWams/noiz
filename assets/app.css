@@ -114,17 +114,14 @@ a:focus {
 }
 /* @media screen and (min-width: 25rem) */
 
-@media screen and (min-width: 25rem) {
-    
-.content-passion {
+@media screen and (max-width: 24.9375rem) {
+    .content-passion {
     padding-top: 158px;
     margin: -30px 70px auto;
 }
 
 .frame-view {
-    height: 392px;
     margin: 0px auto;
-    width: 411px;
     border-top-right-radius: 156px;
     border-bottom-left-radius: 28px;
     background-color: #fff;
@@ -133,8 +130,54 @@ a:focus {
 }
 
 .img-frame {
-    width: 396px;
-    height: 375px;
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 28px;
+}
+
+.content-description {
+    margin: 93px auto;
+    width: 411px;
+}
+
+.c-text {
+    font-size: 31px;
+    font-weight: bold;
+    color: #3c3d45;
+    font-family: 'Roboto', sans-serif;
+}
+
+.c-sub-text {
+    font-size: 12px;
+    color: #b8b9bf;
+    margin-top: 19px;
+    margin-bottom: 23px;
+    font-family: 'Roboto', sans-serif;
+}
+
+}
+
+@media screen and (min-width: 25rem) {
+    
+.content-passion {
+    padding-top: 158px;
+    margin: -30px 70px auto;
+}
+
+.frame-view {
+   height: 391px; 
+    margin: 0px auto;
+    border-top-right-radius: 156px;
+    border-bottom-left-radius: 28px;
+    background-color: #fff;
+    padding: 8px;
+    box-shadow: -3px 16px 20px 20px #eaeaec80, 0px 0px 0px 0px rgba(0, 0, 0, 0.26);
+}
+
+.img-frame {
+    width: 100%;
+    height: 100%;
     border-top-right-radius: 150px;
     border-bottom-left-radius: 28px;
 }
@@ -185,12 +228,12 @@ a:focus {
 .logoWrap {
     position: absolute;
     top: 52px;
-    left: 66px;
+    left: 30px;
 }
 
 .mobile-view-sec {
     position: absolute;
-    right: 73px;
+    right: 46px;
     text-align: right;
     color: #000;
     top: 60px;
@@ -221,7 +264,7 @@ li {
 .header-content {
     position: absolute;
     top: 236px;
-    left: 70px;
+    left: 30px;
 }
 
 
